@@ -7734,6 +7734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664179543}
   - component: {fileID: 664179544}
+  - component: {fileID: 664179545}
   m_Layer: 0
   m_Name: Virtual Camera
   m_TagString: Untagged
@@ -7750,7 +7751,7 @@ Transform:
   m_GameObject: {fileID: 664179542}
   serializedVersion: 2
   m_LocalRotation: {x: 0.12858163, y: -0.8171374, z: 0.19575784, w: 0.5267183}
-  m_LocalPosition: {x: -2072.5723, y: 539.64856, z: 748.7458}
+  m_LocalPosition: {x: -1851.6, y: 511.1, z: 915.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7796,6 +7797,27 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 703525989}
+--- !u!95 &664179545
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664179542}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &664307807
 GameObject:
   m_ObjectHideFlags: 0
@@ -8487,6 +8509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beginning Walk
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 32b9638d098ef494f8862bf7c938aee9, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 49bcb84c95d04624aa5cbd6e9ccbb014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12405,7 +12431,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.12858163, y: -0.8171374, z: 0.19575784, w: 0.5267183}
-  m_LocalPosition: {x: 405.75, y: 40.567383, z: 460.51398}
+  m_LocalPosition: {x: 626.7223, y: 12.018829, z: 627.36816}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23649,6 +23675,10 @@ PlayableDirector:
     value: {fileID: 936228670}
   - key: {fileID: -7369523996743549117, guid: 59b9a3ad9845fc94fbf9c6dbfa0d08a6, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -8245259311654741802, guid: 59b9a3ad9845fc94fbf9c6dbfa0d08a6, type: 2}
+    value: {fileID: 2049061769}
+  - key: {fileID: 3558216322168746600, guid: 59b9a3ad9845fc94fbf9c6dbfa0d08a6, type: 2}
+    value: {fileID: 664179545}
   m_ExposedReferences:
     m_References:
     - 85a74032af53dbc4587faa90474713e8: {fileID: 0}
